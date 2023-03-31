@@ -1,0 +1,103 @@
+body {
+    background-color: white;
+    height: 100%;
+    margin: 0px;
+  }
+#main_container{
+  height: 100%;
+  width: 100%;
+}
+  
+#header {
+    background: rgb(178, 252, 223);
+    font-family: ariel;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+  
+  }
+.headline {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+
+  }
+  #timer{
+  background-color: white;
+  text-align: center;
+  display: flex
+  font-size: 16px;
+  color: rgb(199, 82, 82);
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 13px;
+  height: 30px; width: 80px;
+  border: none;
+  
+
+  }
+#leftcolumn{
+  width: 40%; height: 100%; float: left;
+
+}
+#rightcolumn{
+  margin-left: 42%;
+  height: 100%; width: 60%;
+}
+#image{
+width: 500px; height: 100%;
+}
+
+#rapper{
+  margin: auto;
+  background-color: beige; height: 30px;width: 60%;
+  display: flex;
+  align-items: center;
+}
+#thrivelogo{
+  width: 25%; padding-top: 14px;
+}
+#line{
+  width:200px; size: 8; color: bisque;
+}
+.button{
+  background-color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 100;
+  margin: 4px 7px;
+  border-radius: 13px;
+  cursor: pointer;
+  height: 30px;
+  border-style: solid rgb(212, 209, 209);
+  border-width: thin;
+  
+}
+#footline{
+  clear: right;
+  height: 45px;
+  background-color: #f5eded;
+  margin-top: 330px;
+  position: relative;
+  
+}
+#nextbutton{
+  background-color: rgb(238, 79, 79);
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 13px;
+  height: 35px; width: 150px;
+  border: none;
+  align-items: flex-end;
+  cursor: pointer;
+
+}
